@@ -1,0 +1,17 @@
+@import "./style/navbar-style.css";
+@import "./style/header-style.css";
+@import "./style/design-tokens.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: geometricPrecision;
+  shape-rendering: geometricPrecision;
+  image-rendering: optimizeQuality;
+
+  body {
+    font-size: 16px;
+    background-color: var(--rodd-semantic-background-dark);
+  }
+}

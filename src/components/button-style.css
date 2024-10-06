@@ -1,0 +1,9 @@
+@import "../style/design-tokens.css";
+
+button {
+  height: 48px;
+  background-color: var(--rodd-component-button-surface);
+  padding: 1em;
+  box-shadow: 1px 1px var(--rodd-component-button-shadow-effect-100), -1px -1px var(--rodd-component-button-shadow-effect-200);
+  border-radius: 0.7em;
+}

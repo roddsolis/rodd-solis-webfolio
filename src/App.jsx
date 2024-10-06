@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import Button from "./components/Button.jsx";
 
 const App = () => {
   return (
@@ -14,10 +15,10 @@ const App = () => {
           <li>Contacto</li>
         </ul>
         <div className="ctaContainer">
-          <button>hablemos</button>
+          <Button buttonText="¡Hablemos!" />
         </div>
       </nav>
-      <header>acá ha la cabecera</header>
+      <header>acá va la cabecera</header>
       <footer>footer</footer>
     </>
   );

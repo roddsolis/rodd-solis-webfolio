@@ -1,0 +1,34 @@
+:root {
+  /* foundation tokens */
+
+  /* neutral colors */
+  --rodd-foundation-neutral-100: #4f5461;
+  --rodd-foundation-neutral-200: #3d404a;
+  --rodd-foundation-neutral-300: #2c2e36;
+  --rodd-foundation-neutral-400: #24252b;
+  --rodd-foundation-neutral-500: #1d1f24;
+  --rodd-foundation-neutral-600: #1a1b1f;
+  --rodd-foundation-neutral-700: #16171a;
+  --rodd-foundation-neutral-800: #121317;
+
+  --rodd-foundation-light-default: #efefe7;
+
+  /*effect colors*/
+  --rodd-foundation-effect-100: #001aff;
+  --rodd-foundation-effect-200: #ff0000;
+
+  /* semantic tokens */
+
+  /* background */
+  --rodd-semantic-background-dark: var(--rodd-foundation-neutral-700);
+
+  --rodd-semantic-shadow-color-effect-100: var(--rodd-foundation-effect-100);
+  --rodd-semantic-shadow-color-effect-200: var(--rodd-foundation-effect-200);
+
+  /* surface */
+  --rodd-semantic-surface-light: var(--rodd-foundation-light-default);
+  /* Component tokens */
+  --rodd-component-button-surface: var(--rodd-foundation-light-default);
+  --rodd-component-button-shadow-effect-100: var(--rodd-semantic-shadow-color-effect-100);
+  --rodd-component-button-shadow-effect-200: var(--rodd-semantic-shadow-color-effect-200);
+}
