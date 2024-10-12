@@ -1,0 +1,5 @@
+@import "../style/design-tokens.css";
+
+.text-animation {
+  color: bisque;
+}
