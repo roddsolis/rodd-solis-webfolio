@@ -18,7 +18,13 @@ const App = () => {
           <Button buttonText="¡Hablemos!" />
         </div>
       </nav>
-      <header>acá va la cabecera</header>
+      <header>
+        acá va la cabecera
+        <div className="rrss-container">aca van las redes sociales</div>
+        <p>
+          <small>@diseño y codigo por Rodd Solis</small>
+        </p>
+      </header>
       <footer>footer</footer>
     </>
   );
