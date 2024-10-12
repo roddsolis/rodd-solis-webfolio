@@ -1,7 +1,7 @@
 nav {
   position: fixed;
   width: 100%;
-  height: 56px;
+  height: auto;
   padding: 1.5em;
   display: flex;
   align-items: center;

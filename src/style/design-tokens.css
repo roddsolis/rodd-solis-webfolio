@@ -19,6 +19,8 @@
 
   /* semantic tokens */
 
+  --rodd-semantic-text-primary: var(--rodd-foundation-light-default);
+
   /* background */
   --rodd-semantic-background-dark: var(--rodd-foundation-neutral-700);
 

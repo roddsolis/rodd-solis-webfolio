@@ -9,6 +9,7 @@
   text-rendering: geometricPrecision;
   shape-rendering: geometricPrecision;
   image-rendering: optimizeQuality;
+  color: var(--rodd-semantic-text-primary);
 
   body {
     font-size: 16px;
