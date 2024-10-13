@@ -1,6 +1,6 @@
 // import React from "react";
 import Button from "./components/Button.jsx";
-import TitleAnimation from "./components/TitleAnimation.jsx";
+import Header from "./components/Header.jsx";
 
 const App = () => {
   return (
@@ -19,16 +19,7 @@ const App = () => {
           <Button buttonText="¡Hablemos!" />
         </div>
       </nav>
-      <header>
-        <div className="text-wrapper">
-          <TitleAnimation text1="FullStack Developer" text2="User Interface Designer" text3="Visual Designer" />
-          <TitleAnimation text1="FullStack Developer" text2="User Interface Designer" text3="Visual Designer" />
-        </div>
-        <div className="rrss-logo-container">aca van las redes sociales</div>
-        <p>
-          <small>@diseño y codigo por Rodd Solis</small>
-        </p>
-      </header>
+      <Header />
       <footer>footer</footer>
     </>
   );

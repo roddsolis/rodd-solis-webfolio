@@ -1,4 +1,4 @@
-import "./title-animation.css";
+import "./title-animation-style.css";
 // import { useRef, useEffect } from "react";
 // import gsap from "gsap";
 

@@ -1,0 +1,27 @@
+@import "../style/design-tokens.css";
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-x: hidden;
+  /* background-color: aqua; */
+  position: relative;
+  z-index: 0;
+}
+
+.circulo-1 {
+  z-index: 0;
+  position: absolute;
+  top: 10vh;
+  left: -500px;
+  width: 50em;
+  height: 50em;
+  border-radius: 100em;
+  background-color: var(--rodd-component-button-shadow-effect-100);
+  filter: blur(6em);
+  opacity: 0.1;
+  mix-blend-mode: multiply;
+}

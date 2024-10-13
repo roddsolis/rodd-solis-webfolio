@@ -1,10 +1,22 @@
-@import "../style/design-tokens.css";
+@import "../style/";
 
 button {
   height: 48px;
+  color: var(--rodd-semantic-text-primary);
   background-color: var(--rodd-component-button-surface);
   padding: 1em;
-  box-shadow: 2px 2px var(--rodd-component-button-shadow-effect-200), -2px -2px var(--rodd-component-button-shadow-effect-100);
+  box-shadow: 0px 0px var(--rodd-component-button-shadow-effect-200), -0px -0px var(--rodd-component-button-shadow-effect-100);
   border-radius: 0.7em;
   border: none;
+  font-size: 1em;
+  font-weight: 600;
+  transition: 0.2s ease-in;
+  border: 1px solid var(--rodd-foundation-neutral-400);
+}
+
+button:hover {
+  background-color: var(--rodd-component-button-surface-hover);
+  box-shadow: 2px 2px var(--rodd-component-button-shadow-effect-200), -2px -2px var(--rodd-component-button-shadow-effect-100);
+  color: var(--rodd-semantic-text-primary-inverse);
+  transition: 0.2s ease-out;
 }
