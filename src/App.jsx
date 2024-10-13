@@ -20,7 +20,10 @@ const App = () => {
         </div>
       </nav>
       <header>
-        <TitleAnimation text1="FullStack Devloper" text2="User Interface Designer" text3="Visual Designer" />
+        <div className="text-wrapper">
+          <TitleAnimation text1="FullStack Developer" text2="User Interface Designer" text3="Visual Designer" />
+          <TitleAnimation text1="FullStack Developer" text2="User Interface Designer" text3="Visual Designer" />
+        </div>
         <div className="rrss-logo-container">aca van las redes sociales</div>
         <p>
           <small>@diseño y codigo por Rodd Solis</small>

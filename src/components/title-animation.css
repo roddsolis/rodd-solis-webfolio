@@ -1,23 +1,21 @@
 @import "../style/design-tokens.css";
 
-.text-animation {
-  font-size: 10em;
-  position: absolute;
+@keyframes infinteText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.text-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  width: 100%;
-  p {
-    text-shadow: 2px 2px var(--rodd-component-button-shadow-effect-200), -2px -2px var(--rodd-component-button-shadow-effect-100);
-    text-wrap: nowrap;
-  }
-  .guion-1 {
-    color: var(--rodd-component-button-shadow-effect-100);
-    text-shadow: none;
-  }
-  .guion-2 {
-    color: var(--rodd-component-button-shadow-effect-200);
-    text-shadow: none;
-  }
+  padding-left: 100%;
+}
+.text-animated {
+  font-size: 12em;
+  text-shadow: 2px 2px var(--rodd-component-button-shadow-effect-200), -2px -2px var(--rodd-component-button-shadow-effect-100);
+  white-space: nowrap;
+  animation: infinteText 25s linear infinite;
 }
