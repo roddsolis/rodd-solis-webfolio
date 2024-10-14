@@ -1,4 +1,4 @@
-@import "../style/";
+@import "../style/design-tokens.css";
 
 button {
   height: 48px;

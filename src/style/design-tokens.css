@@ -2,6 +2,7 @@
   /* foundation tokens */
 
   /* neutral colors */
+  --rodd-foundation-neutral-0: #efefe7;
   --rodd-foundation-neutral-100: #4f5461;
   --rodd-foundation-neutral-200: #3d404a;
   --rodd-foundation-neutral-300: #2c2e36;
@@ -11,15 +12,13 @@
   --rodd-foundation-neutral-700: #16171a;
   --rodd-foundation-neutral-800: #121317;
 
-  --rodd-foundation-light-default: #efefe7;
-
   /*effect colors*/
   --rodd-foundation-effect-100: #001aff;
   --rodd-foundation-effect-200: #ff0000;
 
   /* semantic tokens */
 
-  --rodd-semantic-text-primary: var(--rodd-foundation-light-default);
+  --rodd-semantic-text-primary: var(--rodd-foundation-neutral-0);
   --rodd-semantic-text-primary-inverse: var(--rodd-foundation-neutral-800);
 
   /* background */
@@ -29,10 +28,10 @@
   --rodd-semantic-shadow-color-effect-200: var(--rodd-foundation-effect-200);
 
   /* surface */
-  --rodd-semantic-surface-light: var(--rodd-foundation-light-default);
+  --rodd-semantic-surface-light: var(--rodd-foundation-neutral-0);
   /* Component tokens */
   --rodd-component-button-surface: var(--rodd-foundation-neutral-800);
-  --rodd-component-button-surface-hover: var(--rodd-foundation-light-default);
+  --rodd-component-button-surface-hover: var(--rodd-foundation-neutral-0);
   --rodd-component-button-shadow-effect-100: var(--rodd-semantic-shadow-color-effect-100);
   --rodd-component-button-shadow-effect-200: var(--rodd-semantic-shadow-color-effect-200);
 }

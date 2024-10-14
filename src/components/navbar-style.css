@@ -1,0 +1,36 @@
+@import "../style/design-tokens.css";
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  z-index: 1;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+
+  & li {
+    display: flex;
+    list-style: none;
+    color: var(--rodd-foundation-neutral-100);
+    transition: 0.3s ease-in;
+  }
+
+  & li:hover {
+    display: flex;
+    list-style: none;
+    color: var(--rodd-foundation-neutral-0);
+    text-shadow: 1px 1px var(--rodd-component-button-shadow-effect-200), -1px -1px var(--rodd-component-button-shadow-effect-100);
+    transition: 0.3s ease-out;
+  }
+}
