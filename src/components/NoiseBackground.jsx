@@ -26,13 +26,13 @@ const NoiseBackground = () => {
 
         for (let x = 0; x < width; x++) {
           for (let y = 0; y < height; y++) {
-            const value = noise.perlin2(x / 2, y / 2); // Ajusta la frecuencia
+            const value = noise.perlin2(x / 1.1, y / 1.1); // Ajusta la frecuencia
             const color = Math.floor((value + 1) * 128); // Escala a 0-255
             const index = (x + y * width) * 4;
             data[index] = color; // Red
             data[index + 1] = color; // Green
             data[index + 2] = color; // Blue
-            data[index + 3] = 10; // Alpha (opaco)
+            data[index + 3] = 7; // Alpha (opaco)
           }
         }
 
