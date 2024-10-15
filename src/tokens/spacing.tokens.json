@@ -1,0 +1,26 @@
+{
+  "spacing-xs": {
+    "$value": "{scale.4}",
+    "$type": "dimension"
+  },
+  "spacing-s": {
+    "$value": "{scale.6}",
+    "$type": "dimension"
+  },
+  "spacing-m": {
+    "$value": "{scale.6}",
+    "$type": "dimension"
+  },
+  "spacing-l": {
+    "$value": "{scale.7}",
+    "$type": "dimension"
+  },
+  "spacing-xl": {
+    "$value": "{scale.9}",
+    "$type": "dimension"
+  },
+  "spacing-2xl": {
+    "$value": "{scale.14}",
+    "$type": "dimension"
+  }
+}

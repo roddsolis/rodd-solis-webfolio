@@ -1,5 +1,5 @@
 {
-  "source": ["src/tokens/color.tokens.json", "src/tokens/radius.tokens.json", "src/tokens/scale-rule.tokens.json", "src/tokens/padding.tokens.json"],
+  "source": ["src/tokens/color.tokens.json", "src/tokens/radius.tokens.json", "src/tokens/scale-rule.tokens.json", "src/tokens/padding.tokens.json", "src/tokens/spacing.tokens.json", "src/tokens/border.tokens.json", "src/tokens/shadow.tokens.json", "src/tokens/typography.tokens.json"],
   "platforms": {
     "web": {
       "transformGroup": "web",

@@ -60,5 +60,27 @@
   --scale-8: 40px;
   --scale-9: 48px;
   --scale-10: 56px;
-  --padding-padding-s: 4px;
+  --scale-11: 64px;
+  --scale-12: 72px;
+  --scale-13: 80px;
+  --scale-14: 88px;
+  --padding-xs: 8px;
+  --padding-s: 16px;
+  --padding-m: 24px;
+  --padding-l: 32px;
+  --padding-xl: 4px;
+  --spacing-xs: 16px;
+  --spacing-s: 24px;
+  --spacing-m: 24px;
+  --spacing-l: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 88px;
+  --border-width-default: 1px;
+  --border-width-strong: 2px;
+  --border-style-default: solid;
+  --border-style-dashed: dashed;
+  --shadow-s: [object Object];
+  --shadow-m: [object Object];
+  --shadow-l: [object Object];
+  --heading-1: [object Object];
 }

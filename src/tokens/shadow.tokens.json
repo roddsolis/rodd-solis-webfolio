@@ -1,0 +1,32 @@
+{
+  "shadow-s": {
+    "type": "shadow",
+    "$value": {
+      "color": "#00000020",
+      "offsetX": "0px",
+      "offsetY": "3px",
+      "blur": "3px",
+      "spread": "-1px"
+    }
+  },
+  "shadow-m": {
+    "type": "shadow",
+    "$value": {
+      "color": "#00000020",
+      "offsetX": "0px",
+      "offsetY": "16px",
+      "blur": "24px",
+      "spread": "-6px"
+    }
+  },
+  "shadow-l": {
+    "type": "shadow",
+    "$value": {
+      "color": "#00000020",
+      "offsetX": "0px",
+      "offsetY": "24px",
+      "blur": "24px",
+      "spread": "-8px"
+    }
+  }
+}

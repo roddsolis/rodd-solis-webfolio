@@ -1,8 +1,22 @@
 {
-  "padding": {
-    "padding-s": {
-      "$value": "{scale.1}",
-      "$type": "dimension"
-    }
+  "padding-xs": {
+    "$value": "{scale.2}",
+    "$type": "dimension"
+  },
+  "padding-s": {
+    "$value": "{scale.4}",
+    "$type": "dimension"
+  },
+  "padding-m": {
+    "$value": "{scale.6}",
+    "$type": "dimension"
+  },
+  "padding-l": {
+    "$value": "{scale.7}",
+    "$type": "dimension"
+  },
+  "padding-xl": {
+    "$value": "{scale.1}",
+    "$type": "dimension"
   }
 }

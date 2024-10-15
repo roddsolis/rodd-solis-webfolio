@@ -1,0 +1,22 @@
+{
+  "border width": {
+    "default": {
+      "$value": "1px",
+      "$type": "dimension"
+    },
+    "strong": {
+      "$value": "2px",
+      "$type": "dimension"
+    }
+  },
+  "border style": {
+    "default": {
+      "$value": "solid",
+      "$type": "strokeStyle"
+    },
+    "dashed": {
+      "$value": "dashed",
+      "$type": "strokeStyle"
+    }
+  }
+}
