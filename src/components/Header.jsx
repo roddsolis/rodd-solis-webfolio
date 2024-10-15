@@ -8,12 +8,15 @@ const Header = () => {
         <TitleAnimation text1="FullStack Developer" text2="User Interface Designer" text3="Visual Designer" />
         <TitleAnimation text1="FullStack Developer" text2="User Interface Designer" text3="Visual Designer" />
       </div>
+      <div className="main-image-container">
+        <img src="src\img\Rodd-front@1,25x 1.png" alt="" />
+      </div>
       <div className="rrss-logo-container">
         <RedesSociales />
       </div>
       <div className="credits">
         <p>
-          <small>@diseño y codigo por Rodd Solis</small>
+          <small>© diseño y codigo por Rodd Solis</small>
         </p>
       </div>
     </header>

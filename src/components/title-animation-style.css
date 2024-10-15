@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   padding-left: 100%;
+  z-index: 1;
 }
 .text-animated {
   font-size: 11em;

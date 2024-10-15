@@ -11,7 +11,27 @@ header {
   position: relative;
   z-index: 0;
 }
-
+.main-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 656px;
+  height: 656px;
+  background-color: var(--rodd-foundation-neutral-500);
+  position: absolute;
+  border-radius: 1000px;
+  & img {
+    /* background-color: aqua; */
+    mask-image: radial-gradient(circle 656px, black, white);
+    image-rendering: optimizeQuality;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    mix-blend-mode: auto;
+    border-radius: 1000px;
+    object-fit: contain;
+  }
+}
 .rrss-logo-container {
   position: absolute;
   bottom: 0;
