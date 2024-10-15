@@ -1,0 +1,26 @@
+{
+  "radius-xs": {
+    "$value": "{scale.1}",
+    "$type": "number"
+  },
+  "radius-s": {
+    "$value": "{scale.2}",
+    "$type": "number"
+  },
+  "radius-m": {
+    "$value": "{scale.3}",
+    "$type": "number"
+  },
+  "radius-l": {
+    "$value": "{scale.4}",
+    "$type": "number"
+  },
+  "radius-xl": {
+    "$value": "{scale.6}",
+    "$type": "number"
+  },
+  "radius-2xl": {
+    "$value": "{scale.7}",
+    "$type": "number"
+  }
+}

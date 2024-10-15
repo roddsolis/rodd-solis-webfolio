@@ -1,0 +1,8 @@
+{
+  "padding": {
+    "padding-s": {
+      "$value": "{scale.1}",
+      "$type": "dimension"
+    }
+  }
+}
