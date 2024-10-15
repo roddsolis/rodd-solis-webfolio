@@ -1,8 +1,18 @@
-# React + Vite
+# Style Dictionary Complete Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This starter project has everything you need to get started.
 
-Currently, two official plugins are available:
+## How it works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All of the design tokens and assets are in this package. Make any changes to suit your needs. This package has iOS, Android, and web code.
+
+To get started, run
+
+```
+$ npm install
+$ npm run build
+```
+
+The npm build task is what performs the style dictionary build steps to generate the files for each platform. Every time you change something in the style dictionary, like changing colors or adding design tokens, you will have to run this command again to generate the files.
+
+## iOS

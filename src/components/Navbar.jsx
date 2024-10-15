@@ -14,7 +14,7 @@ const Navbar = () => {
         <li>Contacto</li>
       </ul>
       <div className="ctaContainer">
-        <Button buttonText="¡Hablemos!" />
+        <Button buttonText="Hablemos" />
       </div>
     </nav>
   );
