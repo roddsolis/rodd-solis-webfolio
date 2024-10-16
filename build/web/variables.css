@@ -82,5 +82,14 @@
   --shadow-s: [object Object];
   --shadow-m: [object Object];
   --shadow-l: [object Object];
-  --heading-1: [object Object];
+  --text-styles-heading-l: [object Object];
+  --text-styles-heading-m: [object Object];
+  --text-styles-heading-s: [object Object];
+  --text-styles-subtitle-l: [object Object];
+  --text-styles-subtitle-m: [object Object];
+  --text-styles-subtitle-s: [object Object];
+  --text-styles-paragraph-l: [object Object];
+  --text-styles-paragraph-m: [object Object];
+  --text-styles-paragraph-s: [object Object];
+  --text-styles-metadata: [object Object];
 }

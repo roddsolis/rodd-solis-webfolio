@@ -1,5 +1,5 @@
 @import "./style/design-tokens.css";
-
+@import "../build/web/variables.css";
 * {
   padding: 0;
   margin: 0;
