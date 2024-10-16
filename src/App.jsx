@@ -1,7 +1,7 @@
 // import Button from "./components/Button.jsx";
 import Header from "./components/Header.jsx";
 import Navbar from "./components/Navbar.jsx";
-import "../build/web/variables.css";
+import "./variables/variables.css";
 import "./style.css";
 import NoiseBackground from "./components/NoiseBackground.jsx";
 

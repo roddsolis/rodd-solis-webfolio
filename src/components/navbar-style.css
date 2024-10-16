@@ -23,14 +23,14 @@ ul {
     display: flex;
     list-style: none;
     color: var(--rodd-foundation-neutral-100);
-    transition: 0.3s ease-in;
+    transition: 0.2s ease-in-out;
   }
 
   & li:hover {
     display: flex;
     list-style: none;
     color: var(--rodd-foundation-neutral-0);
-    text-shadow: 1px 1px var(--rodd-component-button-shadow-effect-200), -1px -1px var(--rodd-component-button-shadow-effect-100);
-    transition: 0.3s ease-out;
+    /* text-shadow: 1px 1px var(--rodd-component-button-shadow-effect-200), -1px -1px var(--rodd-component-button-shadow-effect-100); */
+    /* transition: 0.2s ease-out; */
   }
 }

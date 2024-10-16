@@ -79,17 +79,7 @@
   --border-width-strong: 2px;
   --border-style-default: solid;
   --border-style-dashed: dashed;
-  --shadow-s: [object Object];
-  --shadow-m: [object Object];
-  --shadow-l: [object Object];
-  --text-styles-heading-l: [object Object];
-  --text-styles-heading-m: [object Object];
-  --text-styles-heading-s: [object Object];
-  --text-styles-subtitle-l: [object Object];
-  --text-styles-subtitle-m: [object Object];
-  --text-styles-subtitle-s: [object Object];
-  --text-styles-paragraph-l: [object Object];
-  --text-styles-paragraph-m: [object Object];
-  --text-styles-paragraph-s: [object Object];
-  --text-styles-metadata: [object Object];
+  --shadow-s: 0px 3px 3px -1px #00000020;
+  --shadow-m: 0px 16px 24px -6px #00000020;
+  --shadow-l: 0px 24px 24px -8px #00000020;
 }

@@ -18,6 +18,6 @@
   font-size: 11em;
   text-shadow: 2px 2px var(--rodd-component-button-shadow-effect-200), -2px -2px var(--rodd-component-button-shadow-effect-100);
   white-space: nowrap;
-  animation: infinteText 25s linear infinite;
+  animation: infinteText 60s linear infinite;
   display: flex;
 }

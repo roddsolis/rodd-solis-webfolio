@@ -1,11 +1,12 @@
 import "./navbar-style.css";
 import Button from "./Button.jsx";
+import StatusChip from './StatusChip.jsx'
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="logoContainer">logo</div>
-      <div className="statusContainer">disponible</div>
+      <div className="logoContainer">Rodd Solis</div>
+      <StatusChip statusColor="" statusText="Disponible para proyectos"/>
       <ul>
         <li>Sobre mi</li>
         <li>Experiencia</li>
