@@ -1,5 +1,4 @@
-/* @import "../style/design-tokens.css"; */
-@import "../variables/variables.css";
+@import "../style/design-tokens.css";
 
 button {
   height: 48px;

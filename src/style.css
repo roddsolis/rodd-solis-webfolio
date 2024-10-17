@@ -1,5 +1,4 @@
 /* @import "./style/design-tokens.css"; */
-@import "./variables/variables.css";
 
 * {
   padding: 0;
@@ -10,9 +9,11 @@
   image-rendering: optimizeQuality;
   color: var(--rodd-semantic-text-primary);
 
-  body {
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    background-color: var(--rodd-semantic-background-dark);
-  }
+}
+
+body {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: var(--rodd-semantic-background-dark);
+  filter: saturate(1.1);
 }

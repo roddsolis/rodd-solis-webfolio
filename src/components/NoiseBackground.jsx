@@ -26,13 +26,13 @@ const NoiseBackground = () => {
 
         for (let x = 0; x < width; x++) {
           for (let y = 0; y < height; y++) {
-            const value = noise.perlin2(x / 1.3, y / 1.3); // Ajusta la frecuencia
-            const color = Math.floor((value + 1) * 128); // Escala a 0-255
+            const value = noise.perlin2(x / 1.5, y / 1.5); // Ajusta la frecuencia
+            const color = Math.floor((value + 0.1) * 128); // Escala a 0-255
             const index = (x + y * width) * 4;
             data[index] = color; // Red
             data[index + 1] = color; // Green
             data[index + 2] = color; // Blue
-            data[index + 3] = 7; // Alpha (opaco)
+            data[index + 3] = 15; // Alpha (opaco)
           }
         }
 
@@ -41,23 +41,40 @@ const NoiseBackground = () => {
 
       generateNoise();
 
-      // Convertir el canvas a una imagen base64 y aplicarlo al body
-      const noiseImage = canvas.toDataURL();
-      document.body.style.backgroundImage = `url(${noiseImage})`;
-      document.body.style.backgroundSize = "cover";
-      document.body.style.backgroundRepeat = "no-repeat";
-      document.body.style.backgroundPosition = "center";
+      // Redimensionar el canvas si la ventana cambia de tamaño
+      window.addEventListener('resize', () => {
+        const newWidth = window.innerWidth;
+        const newHeight = window.innerHeight;
+        canvas.width = newWidth;
+        canvas.height = newHeight;
+        generateNoise();
+      });
     };
 
     document.body.appendChild(script);
 
     return () => {
       // Limpiar el fondo al desmontar el componente
-      document.body.style.backgroundImage = "";
+      document.body.removeChild(script);
+      canvasRef.current.width = 0;
+      canvasRef.current.height = 0;
     };
   }, []);
 
-  return <canvas ref={canvasRef} style={{ display: "none" }} />;
+  return (
+    <canvas
+      ref={canvasRef}
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none", // Permitir interacciones con elementos debajo
+        zIndex: 10, // Asegúrate de que esté encima de otros elementos
+      }}
+    />
+  );
 };
 
 export default NoiseBackground;

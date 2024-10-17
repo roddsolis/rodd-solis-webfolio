@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logoContainer">Rodd Solis</div>
-      <StatusChip statusColor="" statusText="Disponible para proyectos"/>
+      <StatusChip statusColor="" statusText="Disponible"/>
       <ul>
         <li>Sobre mi</li>
         <li>Experiencia</li>
