@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logoContainer">Rodd Solis</div>
-      <StatusChip statusColor="" statusText="Disponible"/>
+      <StatusChip statusColor="" statusText="Available for work"/>
       <ul>
         <li>Sobre mi</li>
         <li>Experiencia</li>
@@ -16,6 +16,7 @@ const Navbar = () => {
       </ul>
       <div className="ctaContainer">
         <Button buttonText="Hablemos" />
+        <Button buttonText="Mi CV" />
       </div>
     </nav>
   );

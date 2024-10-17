@@ -12,6 +12,8 @@ button {
   font-weight: 600;
   transition: 0.2s ease-in;
   border: 1px solid var(--rodd-foundation-neutral-400);
+  white-space: nowrap;
+  letter-spacing: 0.8px;
 }
 
 button:hover {
@@ -20,4 +22,7 @@ button:hover {
   color: var(--rodd-semantic-text-primary-inverse);
   transition: 0.2s ease-out;
   background-color: var(--rodd-component-button-surface-hover);
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: 0.8px;
 }

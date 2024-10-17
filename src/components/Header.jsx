@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <div className="credits">
         <p>
-          <small>© diseño y codigo por Rodd Solis</small>
+          <small>©Diseño y codigo por Rodd Solis</small>
         </p>
       </div>
     </header>

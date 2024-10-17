@@ -12,6 +12,11 @@ nav {
   z-index: 1;
 }
 
+.logoContainer{
+  white-space: nowrap;
+  font-size: 2em;
+}
+
 ul {
   width: 100%;
   display: flex;
@@ -33,4 +38,11 @@ ul {
     /* text-shadow: 1px 1px var(--rodd-component-button-shadow-effect-200), -1px -1px var(--rodd-component-button-shadow-effect-100); */
     /* transition: 0.2s ease-out; */
   }
+  
+}
+
+
+.ctaContainer{
+  display: inline-flex;
+  gap: 1em;
 }
