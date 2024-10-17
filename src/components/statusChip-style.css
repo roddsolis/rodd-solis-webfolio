@@ -1,3 +1,15 @@
+@keyframes statusActive {
+
+0% {
+    box-shadow: 0px 0px 0px 0px #1dad1810;
+    
+}
+100%{
+    box-shadow: 0px 0px 0px 5px #1dad1830;
+}
+
+}
+
 .status-container{
     background-color: #ffffff05;
     height: fit-content;
@@ -7,13 +19,14 @@
     gap: 1em;
     padding: 1em  1.4em;
     border-radius: 5em;
-    border: 1px solid #ffffff10;
+    border: 1px solid #ffffff08;
+    
     .colorDot{
         background-color: #1dad18;
         width: 8px;
         height: 8px;
         border-radius: 5em;
-        box-shadow: 0px 0px 0px 5px #1dad1820;
+        animation: statusActive 1s infinite ;
     }
     .statusText{
         color: #ffffff;
